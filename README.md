@@ -438,10 +438,10 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
 ### Parte Obligatoria
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+* [X] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [X] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
+* [X] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
 * [ ] Usa VanillaJS.
 * [ ] Implementa `cipher.encode`.
