@@ -2,12 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Safe Space</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+
+    <header>
+      <h1> Safe Space</h1>
+    </header> 
+
+    <main id="content">
+      <div id="start" class="content-body">
+       <input id="input-text1" placeholder="Ingrese el texto" type="text" maxlength= "100" name="text" class="box_text" /> <!-- place holder: información guia  // maxlength: rango maximo de caracteres -->
+      </div>
+            
+      <div class ="code"></div> 
+        <input id="code" type="number"  min="1" oninput="this.nextElemenSibling.value = this.value">
+      <div id= "result" class="box_text"></div>
+      
+      <div class="button-cifrar">
+         <button type="button" onclick="cifrar"()>Cifrar</button>
+      </div>
+      
+     <!-- <div class="button-cifrar">
+      <button type="button" onclick="descifrar()">Descifrar</button>
+      </div> -->
+    
+    </main>
+    <br>
+    <footer>
+      <div id="autor">
+      <h5>- Elaborado por Valeria Pizarro -</h5>
+      </div>
+    </footer> 
+
     </div>
     <script src="index.js" type="module"></script>
   </body>
