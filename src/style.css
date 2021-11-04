@@ -1,83 +1,106 @@
-:root {
-	--color-terminal:blue;
-	--border-redondo:4px;
+*{
+	font-family:'Courier New', Courier, monospace;
 }
 
-*{
-	font-family: '', 'Courier New', Courier, monospace;
+html {
+  min-height: 100%;
+  position: relative;
 }
 
 body{
-	height: 100vh;
-	display:flex;
+	display: block;
 	justify-content: center;
     align-items: center;
-	background-color: rgb(70, 10, 126);
-	color: #DEEBF7;
+	margin: 0;
+	background-color: whitesmoke
 }
 
-input{
-	border: none;
-	outline: none;
+header{
+    margin: 0px;
+	padding: 10px 20px;
+	background:rgb(70, 10, 126);
+	text-shadow: 10px 5px 10px black;
+	color: white;
+	text-align: left;
+	line-height: center;
 }
 
 main{
-	padding: 25px;
-	box-shadow: 10px 10px 0px rgb (0 0 0 / 75%);
-    border-radius: var(--border-redondo);
+    box-sizing: border-box;
+	margin: 60px 100px;
+	padding: 20px;
+    min-height: 20rem;
+	background:rgb(70, 10, 126);
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0/ 75%);
+	color:white
 }
 
-h1 {
-    margin: 0;
+button{
+    color:black;
+    margin: 10px;
+    padding: 5px;
+    min-width: 100px;
 }
 
-#result{
-	background-color: var(--color-terminal);
-	width: -webkit-fill-aviable;
+.titulo{
+    margin: 0px;
+    display: inline;
+    font-weight: 700;
+    line-height: 2;
 }
 
-.input-text1{
-	margin: 10px 0 0;
-	padding: 10px;
- 	color: #DEEBF7;
+.content-text{
+    justify-content: center;
+	margin: 5px 20px;
+	background:whitesmoke;
+}
+
+#content-result{
+    justify-content: center;
+	margin: 5px 20px;
+}
+
+.content-buttons{
+    box-sizing: content-box;
+    position: relative;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
 }
 
 #code{
-	margin-top: 10px;
-	display: grid;
-	grid-template-columns: 1fr 30px;
+	padding: 6px 6px;
+    margin: 5px ;
+}
+
+#text-original{
+    margin: 0px;
+    width: 100%;
+    min-height: 40px;
+    justify-content: center;
+    float: none;
+    border:whitesmoke;
+}
+
+#result{
+    color:red;
+    font-style: italic;
+    margin: 0px;
+    width: 100%;
+    min-height: 40px;
+    justify-content: center;
+    float: none;
+    background: lightgrey;
+}
+
+#autor{
+    box-sizing: content-box;
+	position: absolute;
+    bottom: 0;
+	height: 40px;
+	width: 100%;
+	background:rgb(70, 10, 126);
+	color: white;
 	text-align: center;
+    line-height: 4px;
 }
-
-/*
-footer{
-	color: darkgrey;
-	height: 50px;
-	text-align: center;
-}
-
-.content-body{
-	float: left;
-	width: 100%; 
-    border: 1px solid black ;
-	background: white;
-    text-align: center;
-}
-
-
-
-/*
-.box_text{
-    float:none;
-    width: 80%; 
-    padding: 100px;
-}
-
-
-button{
-    text-align: center;
-    float:none;
-    padding: 5px;
-}
-
-*/

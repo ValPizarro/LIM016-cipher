@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Safe Space</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <div id="root">
+<head>
+  <meta charset="utf-8">
+  <title>Safe Space</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js" type="module"></script>
 
-    <header>
-      <h1> Safe Space</h1>
-    </header> 
 
-    <main id="content">
-      <div id="start" class="content-body">
-       <input id="input-text1" placeholder="Ingrese el texto" type="text" maxlength= "100" name="text" class="box_text" /> <!-- place holder: información guia  // maxlength: rango maximo de caracteres -->
+</head>
+
+<body>
+  <header>
+    <h1> Safe Space</h1>
+  </header>
+
+  <main id="content">
+
+    <div id="start" class="content-body">
+
+      <div class="titulo">
+        <h2>Diagnostico médico</h2>
       </div>
-            
-      <div class ="code"></div> 
-        <input id="code" type="number"  min="1" oninput="this.nextElemenSibling.value = this.value">
-      <div id= "result" class="box_text"></div>
-      
-      <div class="button-cifrar">
-         <button type="button" onclick="cifrar"()>Cifrar</button>
-      </div>
-      
-     <!-- <div class="button-cifrar">
-      <button type="button" onclick="descifrar()">Descifrar</button>
-      </div> -->
-    
-    </main>
-    <br>
-    <footer>
-      <div id="autor">
-      <h5>- Elaborado por Valeria Pizarro -</h5>
-      </div>
-    </footer> 
 
+      <form id="cifrador" autocomplete="off">
+
+        <div class="content-code">
+          <label class="text1">Código Secreto</label>
+          <input type="number" id="code"  class="code" max="50" min="0" placeholder="#">
+        </div>
+
+        <div class="content-text">
+          <input type="text" id="text-original"  placeholder="Ingrese el texto" autocomplete="off" class="content-text">
+        </div>
+
+        <div id="content-result">
+          <label class="text1"> Su diagnostico médico es: </label>
+          <p><input type="text" id="result"></p>
+        </div>
+
+        <div class="content-buttons">
+          <button type="button" id="cleanBtn">Nuevo</button>
+
+          <button type="button" id="cipherBtn">Cifrar</button>
+
+          <button type="button" id="decipherBtn">Descifrar</button>
+          
+        </div>
+
+      </form>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+  </main>
+
+  <br>
+  <footer>
+
+    <div id="autor">
+      <h5>- Esta herramienta utiliza la metodologia de Cifrado César -</h5>
+    </div>
+
+  </footer>
+
+</body>
+
 </html>
