@@ -1,7 +1,7 @@
 const cipher = {
     encode: function (code, text) {
         
-        if ((code === null) || (code === 0) || (code === isNaN)){
+        if ((code === null) || (code === 0) || (code === isNaN)){       // errores
             throw new TypeError();
         }
 
@@ -16,20 +16,19 @@ const cipher = {
 
             // A = (65) - Z = (90)
 
-            if (posicion >= 65 && posicion <= 90) {
+            if (posicion >= 65 && posicion <= 90) {  // Mayuscula
                 
                 // cod. ASCII, se realiza el desplazamiento deseado.
                 let formulaEncode = (((posicion - 65 + parseInt(code)) % 26) + 65);
 
                 // console.log(formulaEncode);
 
-                    
                 // retorna la letra cifrada
                 message += String.fromCharCode(formulaEncode);
 
 
             }
-            else if (posicion >= 97 && posicion <= 122) {
+            else if (posicion >= 97 && posicion <= 122) {   //minuscula
 
                 let formulaEncode2 = (((posicion - 97 + parseInt(code)) % 26) + 97);
 
