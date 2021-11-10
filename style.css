@@ -1,0 +1,142 @@
+*{
+	font-family: sans-serif, Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+	display: block;
+	justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#body-background{
+    background-image: url("imagenes/Background.jpg");
+    background-size: cover;
+}
+
+header{
+	background:#009C95;
+    width:100%;
+    /* position: fixed; /*fija el menú */
+	text-shadow: 1px 5px 10px grey;
+	color: white;
+	text-align: left;
+	display:table; 
+}
+
+nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+    text-decoration: none;
+}
+
+nav ul li {
+    float: left;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+.header-img {
+    max-height: 100%;
+    width: 20%;
+    /* text-align: center; */
+}
+
+.header-text{   
+	display:table-cell; /*alinea a la izquierda */
+	vertical-align: middle; 
+}
+
+.content{
+	margin: 60px 100px;
+	padding: 20px;
+    /* min-height: 20rem; */
+	background:#009C95;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0/ 80%);
+	color:white;
+}
+
+#text-original{
+    margin: 0px;
+    padding: 10px 5px;
+    width: 100%;
+    min-height: 40px;
+    justify-content: center;
+    float: none;
+    border:whitesmoke;
+}
+
+#content-result{
+	margin: 10px 0px;
+    padding: 10px 0px;
+} 
+
+#result{
+    margin: 20px 0px;
+    padding: 10px 5px;
+    width: 100%;
+    min-height: 40px;
+	color:#009C95;
+    font-style: italic;
+    /* justify-content: center; */
+    background: lightgrey;
+    float: none;
+}
+
+.type-text{
+    padding: 0px 0px 0px 5px;    
+    overflow: hidden;
+}
+
+#code{
+	padding: 5px ;
+    margin: 10px ;
+    text-align: center;
+}
+
+.content-buttons{
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+    display: flex;  /*elemento que contiene los bloques a centrar.*/
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    min-width: 100px;
+    color:black;
+}
+
+#autor{
+    margin: 5px;
+    width: 100%;
+    box-sizing: content-box;
+	position: absolute; 
+    bottom: 0;
+	color: gray;
+	text-align: center;
+    line-height: 4px;
+}
+
+#text-autor{
+    margin: 10px;
+    padding : 0px;
+    font-size: 12px;
+    font-style: italic;
+	color: gray;
+}
