@@ -18,8 +18,8 @@ Esta página permite la encriptación y desencriptación de mensajes, para ello 
 ### Nuevo de mensajes:
 - Al presionar el botón *“Nuevo”* se borrará toda la información ingresada.
 
-## - Sobre Health Clinic
-Esta página nace por la necesidad de crear un espacio seguro que garantice la confidencialidad de toda información relativa al acto médico, en especial durante el vínculo laboral entre el empleador y el trabajador,  debido a que la información médica o de salud de los trabajadores sólo puede ser conocida por el personal médico y las autoridades sanitarias encargadas de la vigilancia de la salud de los trabajadores, más no por el empleador u otras personas sin el consentimiento expreso del trabajador.
+## Sobre Health Results
+Esta página web nace por la necesidad de crear un espacio seguro que garantice la confidencialidad de toda información relativa al acto médico, en especial durante el vínculo laboral entre el empleador y el trabajador,  debido a que la información médica o de salud de los trabajadores sólo puede ser conocida por el personal médico y las autoridades sanitarias encargadas de la vigilancia de la salud de los trabajadores, más no por el empleador u otras personas sin el consentimiento expreso del trabajador.
 
 ## Problema / Necesidad
 Según la[ Ley N° 29783](https://cdn.www.gob.pe/uploads/document/file/349382/LEY_DE_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO.pdf " Ley 29783"), Ley de Seguridad y Salud en el Trabajo artículo 71, el empleador debe informar al trabajador, sobre los resultados de los informes médico. Los resultados de los exámenes médicos, al ser confidenciales, no pueden ser utilizados para ejercer discriminación alguna contra los trabajadores en ninguna circunstancia o momento.
