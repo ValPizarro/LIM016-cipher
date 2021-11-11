@@ -1,7 +1,7 @@
 const cipher = {
     encode: function (code, text) {
         
-        if ((code === null) || (code === 0) || (code === isNaN)){       // errores
+        if (((code === null) || (code === 0)) || (code === isNaN)){       // errores
             throw new TypeError();
         }
 
@@ -51,7 +51,7 @@ const cipher = {
 
     decode: function (code, text) {
 
-        if ((code === null) || (code === 0) || (code === isNaN)) {
+        if (((code === null) || (code === 0)) || (code === isNaN)) {
             throw new TypeError();
         }
     
